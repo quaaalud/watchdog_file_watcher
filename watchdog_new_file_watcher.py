@@ -13,7 +13,7 @@ from PySimpleGUI import popup
 
 
 class MonitorFolder(PatternMatchingEventHandler):
-    """Watch for creation of a new file or modifaction of an existing file."""
+    """Watch for creation of a new file or modifiction of an existing file."""
 
     def __init__(self,
                  watch_dir,
